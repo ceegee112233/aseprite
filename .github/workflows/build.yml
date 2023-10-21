@@ -48,7 +48,7 @@ jobs:
           -DENABLE_UI=${{ matrix.enable_ui }} \
           -DENABLE_CCACHE=$enable_ccache \
           -DLAF_BACKEND=skia \
-          -DSKIA_DIR =./skia \
+          -DSKIA_DIR=./skia \
           -DSKIA_LIBRARY_DIR=./skia/out/Release-x64 \
           -DSKIA_LIBARRY=./skia/out/Release-x64/skia.lib
     - name: Compiling
